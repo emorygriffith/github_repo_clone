@@ -97,9 +97,9 @@ header{
 }
 
 .boxleft{
+  float:left;
   margin-top:20px;
   width: 230px;
-  /* background-color:blue; */
   height: 570px;
   margin-left:227px;
 
@@ -198,12 +198,92 @@ header{
   }
 }
 
+.boxright{
+
+  float:right;
+  width:740px;
+  height:1000px;
+  margin-right:225px;
+  margin-top:20px;
+
+  .tophalf{
+    height:36px;
+
+  .contributions{
+    color:HSLA(0, 0%, 40%, 1);
+    display:block;
+    float:left;
+    width:135px;
+    height:36px;
+    padding-top:8px;
+    padding-left:15px;
+    border-bottom: solid 1px HSLA(0, 0%, 80%, 1);
+  }
+
+  .repositories{
+    color:HSLA(0, 0%, 40%, 1);
+    display:block;
+    float:left;
+    width:135px;
+    height:36px;
+    padding-top:8px;
+    padding-left:15px;
+    border: solid 1px HSLA(0, 0%, 80%, 1);
+    border-bottom:none;
+  }
+  .publicactivity{
+    color:HSLA(0, 0%, 40%, 1);
+    float:left;
+    width:135px;
+    height:36px;
+    padding-top:8px;
+    padding-left:15px;
+    border-bottom: solid 1px HSLA(0, 0%, 80%, 1);
+  }
+
+  .button{
+    float:right;
+    display:block;
+    border-bottom:solid 1px HSLA(0, 0%, 80%, 1);
+    height:36px;
+    width:335px;
+
+  }
+
+  button{
+    width:117px;
+    float:right;
+    border-radius:3px;
+    margin-left:222px;
+    border: solid 1px HSLA(0, 0%, 84%, 1);
+    background-color:HSLA(0, 0%, 96%, 1);
+    font-size:.9em;
+  }
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
 
 footer{
 
   width:100%;
 
   .footerbox{
+    clear:both;
     margin: 0 auto;
     width:987px;
     height:100px;
