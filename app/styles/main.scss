@@ -210,7 +210,8 @@ footer{
     border-top:solid;
     border-width: 1px;
     border-color:HSLA(0, 0%, 93%, 1);
-    padding-top:40px;
+
+
 
 
     .trademark{
@@ -225,11 +226,13 @@ footer{
 
     .logobottom{
       display:inline-block;
+      margin-top:25px;
 
       .mega-octicon{
         display:inline-block;
         color:HSLA(0, 0%, 80%, 1);
-        margin-left:145px;
+        margin-left:170px;
+        margin-right:170px;
       }
     }
 }
