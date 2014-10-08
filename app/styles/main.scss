@@ -259,21 +259,35 @@ header{
     background-color:HSLA(0, 0%, 96%, 1);
     font-size:.9em;
   }
+}
+.bottomhalf {
+  clear:both;
+  height:60px;
+  background-color:blue;
 
+  .left{
+    float:left;
+    width: 500px;
+    height:60px;
 
+  .bottomsearch{
+    float:left;
+    width: 260px;
+    height:35px;
+    border-radius:5px;
+    margin-top:11px;
+  }
+  .button2{
+    display:inline-block;
+    float:right;
+    width:70px;
+    margin-top:0px;
+  }
   }
 
 
 
-
-
-
-
-
-
-
-
-
+}
 
 }
 
