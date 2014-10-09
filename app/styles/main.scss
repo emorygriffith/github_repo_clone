@@ -208,7 +208,6 @@ header{
 
   float:right;
   width:740px;
-  height:1400px;
   margin-right:225px;
   margin-top:20px;
 
@@ -319,6 +318,7 @@ header{
   }
 
   .bars{
+    float:left;
     margin-top:20px;
     clear:both;
     height:115px;
@@ -369,6 +369,7 @@ header{
 
 
 footer{
+  clear:both;
 
   width:100%;
 
