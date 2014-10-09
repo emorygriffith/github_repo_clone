@@ -34,41 +34,26 @@
         <span>Help</span>
       </div>
     </div>
+
     <div class="headright">
-      <img src="https://s3.amazonaws.com/uploads.hipchat.com/31349/1240280/O2kwjr4xiSDAvcj/emorypic.jpeg">
-      <span class="emory">emorygriffith</span>
-      <div class="combo">
-        <div class="combo1"><span class="octicon octicon-plus"></span></div>
-        <div class="combo2"><span class="octicon octicon-chevron-down"></span></div>
-      </div>
-      <div class="reg"><span class="octicon octicon-inbox"></span></div>
-      <div class="reg"><span class="octicon octicon-gear"></span></div>
-      <div class="reg"><span class="octicon octicon-sign-out"></span></div>
+        <div class="combo">
+          <div class="combo1"><span class="octicon octicon-plus"></span></div>
+          <div class="combo2"><span class="octicon octicon-chevron-down"></span></div>
+        </div>
+        <div class="reg"><span class="octicon octicon-inbox"></span></div>
+        <div class="reg"><span class="octicon octicon-gear"></span></div>
+        <div class="reg"><span class="octicon octicon-sign-out"></span></div>
     </div>
+
+
+
   </header>
 
   <aside class="boxleft">
 
-    <img src="https://s3.amazonaws.com/uploads.hipchat.com/31349/1240280/O2kwjr4xiSDAvcj/emorypic.jpeg">
-    <h1>Emory Griffith</h1>
-    <h3>emorygriffith</h3>
-    <div class="clock"><span class="octicon octicon-clock"></span></div>
-    <p>Joined on Sep 22, 2014</p>
 
-    <div class="numbers">
-      <ul class="zeros">
-        <li class="a">0</li>
-        <li class="b">0</li>
-        <li class="c">0</li>
-      </ul>
-      <ul class="zerowords">
-        <li class="followers">Followers</li>
-        <li class="star">Starred</li>
-        <li class="following">Following</li>
-      </ul>
-    <h2>Organizations</h2>
     <img class="logo" src="https://s3.amazonaws.com/uploads.hipchat.com/31349/1240280/j539WnblFuW7JCu/JSlogo.jpeg">
-    </div>
+
   </aside>
 
   <section class="boxright">
@@ -138,33 +123,35 @@
             <p>Javascript <span class="octicon octicon-star"></span> 0  <span class="octicon octicon-git-branch"></span> 0</p>
           </div>
         </section>
-
-
-
-
-
-
     </div>
+</section>
 
+    <script type="text/template" id="top_box">
+          <img class="little_me" src="<%= avatar_url %>">
+          <span class="emory"><%= login %></span>
+    </script>
 
+    <script type="text/template" id="side_box">
+      <img class="profilepic" src= "<%= avatar_url %>" />
+      <h1><%= name %></h1>
+      <h3> <%= login %> </h3>
+      <div class="clock"><span class="octicon octicon-clock"></span></div>
+      <p>Joined on September 22, 2014</p>
+      <div class="numbers">
+        <ul class="zeros">
+          <li class="a"><%= followers %></li>
+          <li class="b"><%= public_gists %></li>
+          <li class="c"><%= following %></li>
+        </ul>
+        <ul class="zerowords">
+          <li class="followers">Followers</li>
+          <li class="star">Starred</li>
+          <li class="following">Following</li>
+        </ul>
+        <h2>Organizations</h2>
+        </div>
 
-
-
-
-
-
-
-
-
-
-  </section>
-
-
-
-
-
-
-
+    </script>
 
 
 
@@ -178,6 +165,8 @@
     <!-- endbower -->
     <!-- endbuild -->
 
+
+        <script src="scripts/token.js"></script>
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
@@ -202,10 +191,6 @@
       <span class="link">Shop</span>
       <span class="link">Blog</span>
       <span class="link">About</span>
-
-
-
-
 
   </div>
 

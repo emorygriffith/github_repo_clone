@@ -53,12 +53,13 @@ header{
   }
 }
 
+
   .headright{
     float:right;
     margin-right:228px;
     margin-top:-25px;
 
-    img{
+    .little_me{
       float:left;
       height:21px;
       width:21px;
@@ -103,7 +104,7 @@ header{
   height: 570px;
   margin-left:227px;
 
-  img{
+  .profilepic{
     width:100%;
     border-radius:10px;
     padding:0px;
