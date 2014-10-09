@@ -21,3 +21,10 @@ var org = 'https://api.github.com/users/emorygriffith/orgs';
   $.getJSON(users).done( function(i){
     $('.boxleft').prepend(rendered2(i));
   });
+
+  var template3 = $('#orgs').html();
+  var rendered3 = _.template(template3);
+
+  $.getJSON(org).done( function(i){
+    $('.org').append(rendered3(i));
+  });
