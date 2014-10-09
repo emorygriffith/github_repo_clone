@@ -80,51 +80,10 @@
 
         <button class="button3"><span class="octicon octicon-repo"></span>  New</button>
 
-    <section class="bars">
-      <div class="left">
-        <h2>github_repo_clone</h2>
-        <p>Updated an hour ago</p>
-      </div>
-      <div class="right">
-        <p>Javascript <span class="octicon octicon-star"></span> 0  <span class="octicon octicon-git-branch"></span> 0</p>
-      </div>
-    </section>
     <section class="bars2">
-        <div class="left">
-          <h2>Etsy</h2>
-          <p>Updated an hour ago</p>
-        </div>
-        <div class="right">
-          <p>Javascript <span class="octicon octicon-star"></span> 0  <span class="octicon octicon-git-branch"></span> 0</p>
-        </div>
-      </section>
-      <section class="bars2">
-          <div class="left">
-            <h2>JS-Arrays</h2>
-            <p>Updated an hour ago</p>
-          </div>
-          <div class="right">
-            <p>Javascript <span class="octicon octicon-star"></span> 0  <span class="octicon octicon-git-branch"></span> 0</p>
-          </div>
-      </section>
-      <section class="bars2">
-          <div class="left">
-            <h2>Calculater</h2>
-            <p>Updated an hour ago</p>
-          </div>
-          <div class="right">
-            <p>Javascript <span class="octicon octicon-star"></span> 0  <span class="octicon octicon-git-branch"></span> 0</p>
-          </div>
-      </section>
-      <section class="bars2">
-          <div class="left">
-            <h2>Accordian</h2>
-            <p>Updated an hour ago</p>
-          </div>
-          <div class="right">
-            <p>Javascript <span class="octicon octicon-star"></span> 0  <span class="octicon octicon-git-branch"></span> 0</p>
-          </div>
-        </section>
+
+    </section>
+
     </div>
 </section>
 
@@ -132,6 +91,8 @@
           <img class="little_me" src="<%= avatar_url %>">
           <span class="emory"><%= login %></span>
     </script>
+
+
 
     <script type="text/template" id="side_box">
       <img class="profilepic" src= "<%= avatar_url %>" />
@@ -157,7 +118,20 @@
 
     <script type="text/template" id="orgimg">
           <img src= "<%= avatar_url %>" width=42px; />
+    </script>
 
+
+
+    <script type="text/template" id="repo">
+      <section class="bars">
+        <div class="left">
+          <h2><%= name %></h2>
+          <p><%= updated_at %></p>
+        </div>
+        <div class="right">
+          <p><%= language %> <span class="octicon octicon-star"></span> <%= stargazers_count %> <span class="octicon octicon-git-branch"></span> <% forks %> </p>
+        </div>
+        </section>
     </script>
 
 

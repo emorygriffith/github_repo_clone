@@ -339,6 +339,7 @@ header{
     }
 
     p{
+      clear:both;
       color:HSLA(0, 0%, 53%, 1);
       font-size:.8em;
       display:block;
@@ -361,48 +362,6 @@ header{
 }
 
 
-  .bars2{
-    clear:both;
-    height:115px;
-    width:740px;
-    border-bottom: solid 1px HSLA(0, 0%, 80%, 1);
-
-    .left{
-      float:left;
-        h2{
-          font-size:1.3em;
-          color:HSLA(210, 53%, 51%, 1);
-          padding-top:17px;
-          margin-bottom:0px;
-          display:inline-block;
-          float:left;
-
-        }
-
-        p{
-          clear:both;
-          color:HSLA(0, 0%, 53%, 1);
-          font-size:.8em;
-          display:block;
-
-
-        }
-    }
-        .right{
-
-            p{
-            color:HSLA(0, 0%, 53%, 1);
-            float:right;
-            display:inline-block;
-            margin-top: 50px;
-            font-size: .8em;
-            font-weight:bold;
-
-          }
-        }
-
-
-  }
 
 
 

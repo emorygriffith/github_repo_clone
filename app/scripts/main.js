@@ -35,4 +35,11 @@ var orgs;
     })
   });
 
-  
+  var template4 = $('#repo').html();
+  var rendered4 = _.template(template4);
+
+  $.getJSON(repo).done( function(x){
+    x.forEach(function(x){
+    $('.bars2').append(rendered4(x));
+    })
+  });
