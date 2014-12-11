@@ -1,6 +1,6 @@
 ## GitHub Repository Page Clone
 
-I cloned my GitHub repo page by using live data from several GitHub APIs.
+I made a pixel perfect clone of my GitHub repo page by using live data from several GitHub APIs.
 
 How to use it:
 
