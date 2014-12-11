@@ -8,37 +8,158 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <link rel="stylesheet" href="styles/vendor.css">
-
+     <link rel="stylesheet" href="bower_components/octicons/octicons/octicons.css">
     <link rel="stylesheet" href="styles/main.css">
 
     <script src="scripts/vendor/modernizr.js"></script>
   </head>
   <body>
 
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Normalize CSS</li>
-
-        <li>Sass</li>
-
-
-        <li>Modernizr</li>
-
-
-        <li>Bourbon & Neat</li>
-
-
-        <li>UnderscoreJS</li>
-
-      </ul>
-      <p>Don't forget to update your readme file!!</p>
+  <header>
+    <div class="headleft">
+      <span class="mega-octicon octicon-mark-github"></span>
+      <input type="text" value="  Search Github"></input>
+      <div class="words">
+        <span>Explore</span>
+        <span>Gist</span>
+        <span>Blog</span>
+        <span>Help</span>
+      </div>
     </div>
+
+    <div class="headright">
+        <div class="combo">
+          <div class="combo1"><span class="octicon octicon-plus"></span></div>
+          <div class="combo2"><span class="octicon octicon-chevron-down"></span></div>
+        </div>
+        <div class="reg"><span class="octicon octicon-inbox"></span></div>
+        <div class="reg"><span class="octicon octicon-gear"></span></div>
+        <div class="reg"><span class="octicon octicon-sign-out"></span></div>
+    </div>
+
+
+
+  </header>
+
+  <aside class="boxleft">
+
+
+    <div class="org">
+
+    </div>
+  </aside>
+
+
+  <section class="boxright">
+    <div class="tophalf">
+      <span class="contributions"><span class="octicon octicon-plus"></span>  Contributions</span>
+      <span class="repositories"><span class="octicon octicon-repo"></span>  Repositories</span>
+      <span class="publicactivity"><span class="octicon octicon-rss"></span>  Public Activity</span>
+    <div class="button">
+      <button><span class="octicon octicon-pencil"></span> Edit Profile</button>
+    </div>
+
+    <div class="bottomhalf">
+
+        <input class="bottomsearch" type="text" value="  Find a Repository..." >
+        <button class="button2">Search</button>
+        <span class="bottomtextall">All</span>
+        <span class="bottomtext">Public</span>
+        <span class="bottomtext">Private</span>
+        <span class="bottomtext">Sources</span>
+        <span class="bottomtext">Forks</span>
+        <span class="bottomtext">Mirrors</span>
+
+        <button class="button3"><span class="octicon octicon-repo"></span>  New</button>
+
+    <section class="bars2">
+
+    </section>
+
+    </div>
+</section>
+
+    <script type="text/template" id="top_box">
+          <img class="little_me" src="<%= avatar_url %>">
+          <span class="emory"><%= login %></span>
+    </script>
+
+
+
+    <script type="text/template" id="side_box">
+      <img class="profilepic" src= "<%= avatar_url %>" />
+      <h1><%= name %></h1>
+      <h3> <%= login %> </h3>
+      <div class="clock"><span class="octicon octicon-clock"></span></div>
+      <p>Joined on <%= created_at %> </p>
+      <div class="numbers">
+        <ul class="zeros">
+          <li class="a"><%= followers %></li>
+          <li class="b"><%= public_gists %></li>
+          <li class="c"><%= following %></li>
+        </ul>
+        <ul class="zerowords">
+          <li class="followers">Followers</li>
+          <li class="star">Starred</li>
+          <li class="following">Following</li>
+        </ul>
+        <h2>Organizations</h2>
+        </div>
+
+    </script>
+
+    <script type="text/template" id="orgimg">
+          <img src= "<%= avatar_url %>" width=42px; />
+    </script>
+
+
+
+    <script type="text/template" id="repo">
+      <section class="bars">
+        <div class="left">
+          <h2><%= name %></h2>
+          <p><%= updated_at %></p>
+        </div>
+        <div class="right">
+          <p><%= language %> <span class="octicon octicon-star"></span> <%= stargazers_count %> <span class="octicon octicon-git-branch"></span> <% forks %> </p>
+        </div>
+        </section>
+    </script>
+
+
+
+
+
 
     <script src="scripts/vendor.js"></script>
 
+
+        <script src="scripts/token.js"></script>
         <script src="scripts/main.js"></script>
 </body>
+
+<footer>
+  <div class="footerbox">
+
+      <span class="trademark">© 2014 GitHub, Inc</span>
+      <span class="link">Terms</span>
+      <span class="link">Privacy</span>
+      <span class="link">Security</span>
+      <span class="link">Contact</span>
+
+      <div class="logobottom">
+        <span class="mega-octicon octicon-mark-github"></span>
+      </div>
+
+      <span class="link">Status</span>
+      <span class="link">API</span>
+      <span class="link">Training</span>
+      <span class="link">Shop</span>
+      <span class="link">Blog</span>
+      <span class="link">About</span>
+
+  </div>
+
+<footer>
+
 </html>
